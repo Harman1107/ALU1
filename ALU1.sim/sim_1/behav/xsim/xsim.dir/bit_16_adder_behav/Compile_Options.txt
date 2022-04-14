@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "bit_16_adder_behav" "xil_defaultlib.bit_16_adder" -log "elaborate.log" 
