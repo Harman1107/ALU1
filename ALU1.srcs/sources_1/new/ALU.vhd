@@ -6,7 +6,7 @@ entity ALU is
 port(
     --inputs
     a,b : in std_logic_vector(31 downto 0);
-    Mode: in std_logic_vector(6 downto 3);
+    Mode: in std_logic_vector(6 downto 2);
     cin : in std_logic;
     --outputs
     cout: inout std_logic;
@@ -96,9 +96,18 @@ component sqrt
            y : out  STD_LOGIC_VECTOR (31 downto 0));
 end component;
 
+component mult
+port(
+		 A : in std_logic_vector(31 downto 0);
+		 B : in std_logic_vector(31 downto 0);
+		 C : out std_logic_vector(63 downto 0)
+	     );
+end component;
+
     signal adder_op: std_logic_vector(31 downto 0); 
     signal r_flt_div: std_logic_vector(31 downto 0);
     signal r_flt_mul: std_logic_vector(31 downto 0);
+    signal r_mul: std_logic_vector(63 downto 0);
     signal r_sqrt: std_logic_vector(31 downto 0);
     signal slt_op: std_logic_vector(31 downto 0);
     signal sub_op: std_logic_vector(31 downto 0);
@@ -106,9 +115,9 @@ end component;
     signal r_incre: std_logic_vector(31 downto 0);
     signal r_sign: std_logic_vector(63 downto 0);
     signal r_cout : STD_LOGIC;
-	signal r_cout1 : STD_LOGIC;
+--	signal r_cout1 : STD_LOGIC;
 	signal r_overflow : STD_LOGIC;
-	signal r_overflow1 : STD_LOGIC;
+--	signal r_overflow1 : STD_LOGIC;
 	signal r_cout_sll : STD_LOGIC;
 	signal r_cout_srl : STD_LOGIC;
 	signal r_sll : STD_LOGIC_VECTOR (31 downto 0);
@@ -139,46 +148,62 @@ P10: floating_multiply
         port map(a, b, r_flt_mul);
 P11: sqrt
         port map(a, r_sqrt);
+P12: mult
+        port map(a,b,r_mul);
 
 
 
 process(a,b,Mode)
 begin
 
-if ( Mode = "0000") then
+if ( Mode = "00000") then
    R <= adder_op;
  end if; 
-if( Mode = "0001") then
+if( Mode = "00010") then
    R <= r_sll;
 end if;
-if( Mode = "0010") then
+if( Mode = "00011") then
    R <= r_srl;
 end if;
-if( Mode = "0011") then
+if( Mode = "00101") then
    R <= r_decre;
 end if;
-if( Mode = "0100") then
+if( Mode = "00100") then
    R <= r_incre;
 end if;
-if( Mode = "0101") then
+if( Mode = "00001") then
    R <= sub_op;
 end if;
-if( Mode = "0111") then
+if( Mode = "00110") then
    R <= slt_op;
 end if;
-if( Mode = "1000") then
+if( Mode = "01100") then
    R <= a and b;
 end if;
-if( Mode = "1001") then
+if( Mode = "01101") then
    R <= a or b;
 end if;
-if( Mode = "1001") then
+if( Mode = "01110") then
    R <= a xor b;
 end if;
-if( Mode = "1010") then
+if( Mode = "01111") then
+   R <= a nand b;
+end if;
+if( Mode = "00111") then
    R_64 <= r_sign;
 end if;
-
+if( Mode = "01001") then
+   R <= r_flt_div;
+end if;
+if( Mode = "01111") then
+   R <= r_flt_mul;
+end if;
+if( Mode = "01011") then
+   R_64 <= r_mul;
+end if;
+if( Mode = "01010") then
+   R <= r_sqrt;
+end if;
 end process;
 
 end Behavioral;
