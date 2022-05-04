@@ -84,16 +84,22 @@ Port ( x : in STD_LOGIC_VECTOR (31 downto 0);
 y : in STD_LOGIC_VECTOR (31 downto 0);
 z : out STD_LOGIC_VECTOR (31 downto 0));
 end component;
-component floating_multiply
-Port ( x : in STD_LOGIC_VECTOR (31 downto 0);
-y : in STD_LOGIC_VECTOR (31 downto 0);
-z : out STD_LOGIC_VECTOR (31 downto 0));
+
+component floating_multiply is
+    Port ( x : in  STD_LOGIC_VECTOR (31 downto 0);
+           y : in  STD_LOGIC_VECTOR (31 downto 0);
+           z : out  STD_LOGIC_VECTOR (31 downto 0));
+end component;
+
+component sqrt
+    Port ( x : in  STD_LOGIC_VECTOR (31 downto 0);
+           y : out  STD_LOGIC_VECTOR (31 downto 0));
 end component;
 
     signal adder_op: std_logic_vector(31 downto 0); 
-    signal a_extend: std_logic_vector(31 downto 0);
-    signal b_extend: std_logic_vector(31 downto 0);
     signal r_flt_div: std_logic_vector(31 downto 0);
+    signal r_flt_mul: std_logic_vector(31 downto 0);
+    signal r_sqrt: std_logic_vector(31 downto 0);
     signal slt_op: std_logic_vector(31 downto 0);
     signal sub_op: std_logic_vector(31 downto 0);
     signal r_decre: std_logic_vector(31 downto 0);
@@ -109,8 +115,7 @@ end component;
 	signal r_srl : STD_LOGIC_VECTOR (31 downto 0);
 begin
 
---a_ext: sign_extend port map(a, a_extend);
---b_ext: sign_extend port map(b, b_extend);
+
 
 P1: bit_32_adder
 		port map (a, b, cin,r_cout , r_overflow, adder_op);
@@ -128,10 +133,12 @@ P7: slt
 		port map (a, b,r_cout , slt_op);
 P8: sign_extend
         port map(a, r_sign);
-P9: floating_divider
-    	port map (a_extend, b_extend, r_flt_div);
+P9: floating_divider 
+        port map(a, b, r_flt_div);
 P10: floating_multiply
-    	port map (a_extend, b_extend, r_flt_div);
+        port map(a, b, r_flt_mul);
+P11: sqrt
+        port map(a, r_sqrt);
 
 
 
