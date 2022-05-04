@@ -1,12 +1,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
-use ieee.numeric_std.all;               -- Needed for shifts
-entity example_shift is
+use ieee.numeric_std.all;  
+
+             -- Needed for shifts
+entity shift_L is
 port(a: in std_logic_vector(15 downto 0);
      out1: out unsigned(15 downto 0));
-end example_shift;
+end shift_L;
  
-architecture behave of example_shift is
+architecture behave of shift_L is
   signal r_Unsigned_L : unsigned(15 downto 0)         := "0000000000000000";
  
    

@@ -1,0 +1,2345 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr 18 11:22:35 2022
+# Process ID: 8120
+# Current directory: D:/alu_copy/ALU1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12872 D:\alu_copy\ALU1\ALU1.xpr
+# Log file: D:/alu_copy/ALU1/vivado.log
+# Journal file: D:/alu_copy/ALU1\vivado.jou
+# Running On: DESKTOP-K7JK1E0, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8412 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/alu_copy/ALU1/ALU1.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-sWARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_esWARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_esWARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:parWARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-eWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:paWARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1INFO: [Project 1-313] Project file moved from 'D:/Projects/ALU1' since last save.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid INFO: [Common 17-344] 'open_project' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 16:44:43 2022...
+ces_1', nor could it be found using path 'D:/Projects/ALU1/ALU1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2021.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1656.582 ; gain = 0.000
+set_property top ALU [current_fileset]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_4_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'increment'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/floating_multiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'floating_multiply'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/floating_divide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'floating_divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/Floating_32_sqrt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sqrt'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'example_shift'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.bit_4_adder [bit_4_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1656.582 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1656.582 ; gain = 0.000
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 16 elements ; expected 4 [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:22]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1656.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.bit_4_adder [bit_4_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.increment [increment_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1656.582 ; gain = 0.000
+add_force {/ALU/Mode} -radix bin {000 0ns}
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: ALU
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1775.488 ; gain = 118.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:9' bound to instance 'bit_16_adder1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:16]
+INFO: [Synth 8-3491] module 'bit_4_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:9' bound to instance 'bit_4_adder1' of component 'bit_4_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [Synth 8-638] synthesizing module 'bit_4_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:16]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'full_adder1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'full_adder2' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:20]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'full_adder3' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:21]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'full_adder4' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'bit_4_adder' (2#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:16]
+INFO: [Synth 8-3491] module 'bit_4_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:9' bound to instance 'bit_4_adder1' of component 'bit_4_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [Synth 8-3491] module 'bit_4_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:9' bound to instance 'bit_4_adder1' of component 'bit_4_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [Synth 8-3491] module 'bit_4_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd:9' bound to instance 'bit_4_adder1' of component 'bit_4_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+WARNING: [Synth 8-3848] Net cout in module/entity bit_16_adder does not have driver. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'bit_16_adder' (3#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:16]
+INFO: [Synth 8-3491] module 'increment' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:7' bound to instance 'increment1' of component 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:15]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:24]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U2' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:25]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U3' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U4' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'increment' (4#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:15]
+WARNING: [Synth 8-614] signal 'adder_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:24]
+WARNING: [Synth 8-614] signal 'incr_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:24]
+WARNING: [Synth 8-3848] Net cout in module/entity ALU does not have driver. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:12]
+WARNING: [Synth 8-3848] Net zero in module/entity ALU does not have driver. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (5#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+WARNING: [Synth 8-7129] Port cout in module bit_16_adder is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cout in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port zero in module ALU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clk in module ALU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1861.406 ; gain = 204.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1867.414 ; gain = 210.832
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1867.414 ; gain = 210.832
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1867.414 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1967.867 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 2008.500 ; gain = 351.918
+27 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:34 . Memory (MB): peak = 2008.500 ; gain = 351.918
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_L'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.bit_4_adder [bit_4_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2032.090 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 2038.023 ; gain = 5.934
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+set_property top bit_16_adder [current_fileset]
+set_property top bit_16_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_adder'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_adder'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bit_16_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bit_16_adder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_adder_behav xil_defaultlib.bit_16_adder -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_adder_behav xil_defaultlib.bit_16_adder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder
+Built simulation snapshot bit_16_adder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bit_16_adder_behav -key {Behavioral:sim_1:Functional:bit_16_adder} -tclbatch {bit_16_adder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source bit_16_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bit_16_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2044.613 ; gain = 5.652
+add_force {/bit_16_adder/a} -radix hex {0f00 0ns}
+add_force {/bit_16_adder/b} -radix hex {00f0 0ns}
+add_force {/bit_16_adder/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_adder'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bit_16_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bit_16_adder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+ERROR: [VRFC 10-2989] 'cout_add' is not declared [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:37]
+ERROR: [VRFC 10-3095] actual of formal out port 'cout' cannot be an expression [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:37]
+ERROR: [VRFC 10-3782] unit 'structural' ignored due to previous errors [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [VRFC 10-3070] VHDL file 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_adder'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bit_16_adder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bit_16_adder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_adder_behav xil_defaultlib.bit_16_adder -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_adder_behav xil_defaultlib.bit_16_adder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder
+Built simulation snapshot bit_16_adder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bit_16_adder_behav -key {Behavioral:sim_1:Functional:bit_16_adder} -tclbatch {bit_16_adder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source bit_16_adder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bit_16_adder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2044.613 ; gain = 0.000
+add_force {/bit_16_adder/input1} -radix hex {0f00 0ns}
+add_force {/bit_16_adder/input2} -radix hex {00f0 0ns}
+add_force {/bit_16_adder/cin} -radix hex {0 0ns}
+run 10 us
+set_property top ALU [current_fileset]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:22]
+ERROR: [VRFC 10-8350] formal port 'cout' of mode 'inout' cannot be associated with actual port 'cout' of mode 'out' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:24]
+ERROR: [VRFC 10-718] formal port <s> does not exist in entity <bit_16_adder>.  Please compare the definition of block <bit_16_adder> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd:25]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+ERROR: [VRFC 10-3462] indexed name is not a 'std_logic' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:32]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+INFO: [VRFC 10-3070] VHDL file 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2247.008 ; gain = 29.555
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_ll'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 2320.137 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 2344.680 ; gain = 24.543
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/b} -radix bin {001 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_rl'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {010 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+run 10 us
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {010 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+set_property top decrement [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'decrement' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decrement_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement
+Built simulation snapshot decrement_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "decrement_behav -key {Behavioral:sim_1:Functional:decrement} -tclbatch {decrement.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source decrement.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'decrement_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/decrement/a1} -radix hex {1 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'decrement' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decrement_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+ERROR: [VRFC 10-2935] 'cin' is already declared in this region [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:27]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:14]
+INFO: [VRFC 10-3070] VHDL file 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'decrement' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decrement_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement
+Built simulation snapshot decrement_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "decrement_behav -key {Behavioral:sim_1:Functional:decrement} -tclbatch {decrement.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source decrement.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'decrement_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/decrement/a1} -radix hex {1 0ns}
+add_force {/decrement/cin} -radix hex {0 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd
+set_property top bit_16_sub [current_fileset]
+set_property top bit_16_sub [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_sub'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'bit_16_sub'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'bit_16_sub' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj bit_16_sub_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_4_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SUB16b'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'increment'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/floating_multiply.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'floating_multiply'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/floating_divide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'floating_divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/Floating_32_sqrt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sqrt'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_L'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_ll'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'shift_rl'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_sub'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_sub_behav xil_defaultlib.bit_16_sub -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot bit_16_sub_behav xil_defaultlib.bit_16_sub -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_sub
+Built simulation snapshot bit_16_sub_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "bit_16_sub_behav -key {Behavioral:sim_1:Functional:bit_16_sub} -tclbatch {bit_16_sub.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source bit_16_sub.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'bit_16_sub_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/bit_16_sub/input1} -radix hex {0f00 0ns}
+add_force {/bit_16_sub/input2} -radix hex {0f00 0ns}
+add_force {/bit_16_sub/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/bit_16_sub/input1} -radix hex {1 0ns}
+add_force {/bit_16_sub/input2} -radix hex {1 0ns}
+run 10 us
+add_force {/bit_16_sub/input2} -radix hex {0 0ns}
+run 10 us
+set_property top decrement [current_fileset]
+set_property top decrement [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'decrement' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decrement_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bit_16_sub'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 15 elements ; expected 16 [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:29]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit decrement in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'decrement'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'decrement' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj decrement_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot decrement_behav xil_defaultlib.decrement -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.adders
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement
+Built simulation snapshot decrement_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "decrement_behav -key {Behavioral:sim_1:Functional:decrement} -tclbatch {decrement.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source decrement.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'decrement_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2344.680 ; gain = 0.000
+add_force {/decrement/a1} -radix hex {2 0ns}
+run 10 us
+add_force {/decrement/cin} -radix hex {0 0ns}
+run 10 us
+set_property top ALU [current_fileset]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/simulate.log"
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement [decrement_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2368.961 ; gain = 24.160
+add_force {/ALU/a} -radix hex {1 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement [decrement_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 2368.961 ; gain = 0.000
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {0 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix hex {3 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'increment'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'slt'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-718] formal port <a1> does not exist in entity <decrement>.  Please compare the definition of block <decrement> to its component declaration and its instantion to detect the mismatch. [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:46]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit alu in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement [decrement_default]
+Compiling architecture behavioral of entity xil_defaultlib.increment [increment_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_sub [bit_16_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.slt [slt_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2370.629 ; gain = 1.605
+add_force {/ALU/a} -radix hex {1 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix hex {7 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/a} -radix hex {2 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/b} -radix hex {3 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix hex {6 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {111 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {0 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {111 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix hex {011 0ns}
+ERROR: [Simtcl 6-179] Couldn't add force for the following reason: Illegal value '011': Object size 3 does not match size of given value 011.
+add_force {/ALU/Mode} -radix bin {011 0ns}
+run 10 us
+add_force {/ALU/a} -radix hex {3 0ns}
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2370.738 ; gain = 0.055
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decrement'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement [decrement_default]
+Compiling architecture behavioral of entity xil_defaultlib.increment [increment_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_sub [bit_16_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.slt [slt_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2371.574 ; gain = 0.836
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package xil_defaultlib.adders
+Compiling package ieee.std_logic_unsigned
+Compiling architecture data of entity xil_defaultlib.full_adder [full_adder_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_adder [bit_16_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_ll [shift_ll_default]
+Compiling architecture behavioral of entity xil_defaultlib.shift_rl [shift_rl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decrement [decrement_default]
+Compiling architecture behavioral of entity xil_defaultlib.increment [increment_default]
+Compiling architecture structural of entity xil_defaultlib.bit_16_sub [bit_16_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.slt [slt_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2371.855 ; gain = 0.281
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {011 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {3 0ns}
+run 10 us
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_runs synth_1 -jobs 4
+WARNING: [Vivado 12-7122] Auto Incremental Compile:: No reference checkpoint was found in run synth_1. Auto-incremental flow will not be run, the standard flow will be run instead.
+[Mon Apr 18 18:36:08 2022] Launched synth_1...
+Run output will be captured here: D:/alu_copy/ALU1/ALU1.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Apr 18 18:37:17 2022] Launched impl_1...
+Run output will be captured here: D:/alu_copy/ALU1/ALU1.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2371.953 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.139 . Memory (MB): peak = 2371.953 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.267 . Memory (MB): peak = 2371.953 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2630.324 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2697.984 ; gain = 326.031
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: ALU
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 2792.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'P1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_n' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'bit_16_adder' (2#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [Synth 8-3491] module 'shift_ll' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:14' bound to instance 'P2' of component 'shift_ll' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'shift_ll' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:21]
+	Parameter n bound to: 16 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'shift_ll' (3#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:21]
+INFO: [Synth 8-3491] module 'shift_rl' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:14' bound to instance 'P3' of component 'shift_rl' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'shift_rl' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:21]
+	Parameter n bound to: 16 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'shift_rl' (4#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:21]
+INFO: [Synth 8-3491] module 'decrement' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:6' bound to instance 'P4' of component 'decrement' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'decrement' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'bit_16_adder1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'decrement' (5#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:14]
+INFO: [Synth 8-3491] module 'increment' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:6' bound to instance 'P5' of component 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'bit_16_adder1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'increment' (6#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:14]
+INFO: [Synth 8-3491] module 'bit_16_sub' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:11' bound to instance 'P6' of component 'bit_16_sub' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'bit_16_sub' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:20]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:36]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_n' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'bit_16_sub' (7#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:20]
+INFO: [Synth 8-3491] module 'slt' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:6' bound to instance 'P7' of component 'slt' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'slt' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'slt' (8#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:14]
+WARNING: [Synth 8-614] signal 'adder_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_sll' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_srl' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_decre' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_incre' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'sub_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'slt_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (9#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+WARNING: [Synth 8-7129] Port input1[2] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[1] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[0] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[15] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[14] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[13] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cout in module ALU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2792.250 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2793.824 ; gain = 1.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 2793.824 ; gain = 1.574
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2793.824 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2902.461 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2924.055 ; gain = 131.805
+61 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2924.055 ; gain = 131.805
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 2938.293 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 2954.012 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 2954.012 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2954.012 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'ALU'
+WARNING: [Vivado 12-12986] Compiled library path does not exist: ''
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2021.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'ALU' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj ALU_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log"
+Vivado Simulator v2021.2
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2021.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot ALU_behav xil_defaultlib.ALU -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/alu_copy/ALU1/ALU1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "ALU_behav -key {Behavioral:sim_1:Functional:ALU} -tclbatch {ALU.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source ALU.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'ALU_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 3090.043 ; gain = 27.633
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/es/1.3/board.xml as part xcvm1802-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.0/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.1/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/es/1.2/board.xml as part xczu48dr-fsvg1517-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/es/1.0/board.xml as part xczu58dr-fsvg1517-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.0/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.1 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.1/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216_es:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/es/1.2/board.xml as part xczu49dr-ffvf1760-2-e-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld_es:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/es/1.0/board.xml as part xczu59dr-ffvf1760-2-i-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/1.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_es:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/es/1.3/board.xml as part xcvc1902-vsva2197-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2021.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
+copy_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3090.043 ; gain = 0.000
+impl_1_copy_1
+set_property part xc7a100tcsg324-1 [current_project]
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 18:45:58 2022...

@@ -1,13 +1,42 @@
-
+----------------------------------------------------------------------------------
+-- Company: Instituto Superior Técnico
+-- Prof: Paulo Alexandre Crisóstomo Lopes
+-- paulo.lopes@inesc-id.pt
+-- 
+-- Create Date: 21:12:41 01/05/2012
+-- Design Name:
+-- Module Name: divider - Behavioral
+-- Project Name:
+-- Target Devices:
+-- Tool versions:
+-- Description: VHDL implementation of a 32 bit floating divider.
+-- Float format: sign | 8 bits exponent + 127 | 23 bits normalized mantissa.
+-- Uses IEEE 754-1985, with the following exceptions.
+-- NaN is not implemented. Operations that would result in NaN
+-- have a non definied result.
+-- An exponent of all zeros will always mean zero, and an
+-- exponent of all ones will always mean infinity.
+-- Rounding is round nearest ties away from zero.
+-- Non normalized numbers are not implemented.
+--
+-- Dependencies:
+--
+-- Revision:
+-- Revision 1.0
+-- Additional Comments:
+--
+----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use ieee.std_logic_unsigned.all;
+-- use STD.textio.all; -- basic I/O
+-- use IEEE.std_logic_textio.all; -- I/O for logic types
 
 entity floating_divider is
 Port ( x : in STD_LOGIC_VECTOR (31 downto 0);
 y : in STD_LOGIC_VECTOR (31 downto 0);
 z : out STD_LOGIC_VECTOR (31 downto 0));
-end floating_divider;
+end FLoating_divider;
 
 architecture Behavioral of floating_divider is
 

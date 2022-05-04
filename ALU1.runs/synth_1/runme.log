@@ -1,0 +1,278 @@
+
+*** Running vivado
+    with args -log ALU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source ALU.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1329.512 ; gain = 580.426
+Command: synth_design -top ALU -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6652
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'P1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'full_adder' (1#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:26]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:32]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_n' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'bit_16_adder' (2#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:20]
+INFO: [Synth 8-3491] module 'shift_ll' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:14' bound to instance 'P2' of component 'shift_ll' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'shift_ll' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:21]
+	Parameter n bound to: 16 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'shift_ll' (3#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd:21]
+INFO: [Synth 8-3491] module 'shift_rl' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:14' bound to instance 'P3' of component 'shift_rl' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'shift_rl' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:21]
+	Parameter n bound to: 16 - type: integer 
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'shift_rl' (4#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd:21]
+INFO: [Synth 8-3491] module 'decrement' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:6' bound to instance 'P4' of component 'decrement' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'decrement' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'bit_16_adder1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'decrement' (5#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/decrement.vhd:14]
+INFO: [Synth 8-3491] module 'increment' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:6' bound to instance 'P5' of component 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'increment' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'bit_16_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_adder.vhd:11' bound to instance 'bit_16_adder1' of component 'bit_16_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'increment' (6#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/incre.vhd:14]
+INFO: [Synth 8-3491] module 'bit_16_sub' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:11' bound to instance 'P6' of component 'bit_16_sub' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'bit_16_sub' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:20]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U1' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:36]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_i' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:17' bound to instance 'U_n' of component 'full_adder' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'bit_16_sub' (7#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd:20]
+INFO: [Synth 8-3491] module 'slt' declared at 'D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:6' bound to instance 'P7' of component 'slt' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'slt' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:14]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'slt' (8#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd:14]
+WARNING: [Synth 8-614] signal 'adder_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_sll' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_srl' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_decre' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'r_incre' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'sub_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+WARNING: [Synth 8-614] signal 'slt_op' is read in the process but is not in the sensitivity list [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:109]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (9#1) [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:17]
+WARNING: [Synth 8-7129] Port input1[2] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[1] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[0] in module shift_rl is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[15] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[14] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input1[13] in module shift_ll is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cout in module ALU is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'R_reg' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/ALU.vhd:113]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 133   
++---Muxes : 
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port cout in module ALU is either unconnected or has no load
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Cout with 1st driver pin 'P1/U_n/Cout_inferred/Cout' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Cout with 2nd driver pin 'GND' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Cout is connected to at least one constant driver which has been preserved, other driver is ignored [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Cout with 1st driver pin 'P6/U_n/Cout_inferred/Cout' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Cout with 2nd driver pin 'GND' [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Cout is connected to at least one constant driver which has been preserved, other driver is ignored [D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/full_adder.vhd:34]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:23 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |     2|
+|2     |LUT2   |     2|
+|3     |LUT3   |    17|
+|4     |LUT4   |    20|
+|5     |LUT5   |    23|
+|6     |LUT6   |    45|
+|7     |LD     |    16|
+|8     |IBUF   |    36|
+|9     |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   177|
+|2     |  P7     |slt    |    20|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1329.512 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 19 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1329.512 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:24 . Memory (MB): peak = 1329.512 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1329.512 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1329.512 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  LD => LDCE: 16 instances
+
+Synth Design complete, checksum: dd92e213
+INFO: [Common 17-83] Releasing license: Synthesis
+71 Infos, 19 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 1329.512 ; gain = 0.000
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'D:/alu_copy/ALU1/ALU1.runs/synth_1/ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 18:37:07 2022...

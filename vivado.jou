@@ -1,0 +1,347 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr 18 11:22:35 2022
+# Process ID: 8120
+# Current directory: D:/alu_copy/ALU1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12872 D:\alu_copy\ALU1\ALU1.xpr
+# Log file: D:/alu_copy/ALU1/vivado.log
+# Journal file: D:/alu_copy/ALU1\vivado.jou
+# Running On: DESKTOP-K7JK1E0, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8412 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/alu_copy/ALU1/ALU1.xpr
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+close_sim
+launch_simulation
+launch_simulation
+source ALU.tcl
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/Mode} -radix bin {000 0ns}
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bit_16_adder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bit_16_adder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+close_sim
+launch_simulation
+source bit_16_adder.tcl
+add_force {/bit_16_adder/a} -radix hex {0f00 0ns}
+add_force {/bit_16_adder/b} -radix hex {00f0 0ns}
+add_force {/bit_16_adder/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+launch_simulation
+launch_simulation
+source bit_16_adder.tcl
+add_force {/bit_16_adder/input1} -radix hex {0f00 0ns}
+add_force {/bit_16_adder/input2} -radix hex {00f0 0ns}
+add_force {/bit_16_adder/cin} -radix hex {0 0ns}
+run 10 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {000 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SLL.vhd
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/b} -radix bin {001 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {001 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/SRL.vhd
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {010 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {0f00 0ns}
+add_force {/ALU/b} -radix hex {00f0 0ns}
+add_force {/ALU/Mode} -radix bin {010 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decrement [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source decrement.tcl
+add_force {/decrement/a1} -radix hex {1 0ns}
+run 10 us
+close_sim
+launch_simulation
+launch_simulation
+source decrement.tcl
+add_force {/decrement/a1} -radix hex {1 0ns}
+add_force {/decrement/cin} -radix hex {0 0ns}
+run 10 us
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_sub.vhd
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bit_16_sub [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top bit_16_sub [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+close_sim
+launch_simulation
+source bit_16_sub.tcl
+add_force {/bit_16_sub/input1} -radix hex {0f00 0ns}
+add_force {/bit_16_sub/input2} -radix hex {0f00 0ns}
+add_force {/bit_16_sub/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/bit_16_sub/input1} -radix hex {1 0ns}
+add_force {/bit_16_sub/input2} -radix hex {1 0ns}
+run 10 us
+add_force {/bit_16_sub/input2} -radix hex {0 0ns}
+run 10 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decrement [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decrement [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+source decrement.tcl
+add_force {/decrement/a1} -radix hex {2 0ns}
+run 10 us
+add_force {/decrement/cin} -radix hex {0 0ns}
+run 10 us
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top ALU [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {1 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {0 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix hex {3 0ns}
+run 10 us
+close_sim
+close [ open D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd w ]
+add_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/slt.vhd
+launch_simulation
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {1 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix hex {7 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+add_force {/ALU/a} -radix hex {2 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/b} -radix hex {3 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix hex {6 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {111 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {0 0ns}
+run 10 us
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {111 0ns}
+run 10 us
+add_force {/ALU/Mode} -radix bin {010 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix hex {011 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+run 10 us
+add_force {/ALU/a} -radix hex {3 0ns}
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+close_sim
+launch_simulation
+source ALU.tcl
+add_force {/ALU/a} -radix hex {2 0ns}
+add_force {/ALU/b} -radix hex {1 0ns}
+add_force {/ALU/Mode} -radix bin {011 0ns}
+add_force {/ALU/cin} -radix hex {0 0ns}
+run 10 us
+run 10 us
+add_force {/ALU/Mode} -radix bin {011 0ns}
+run 10 us
+add_force {/ALU/b} -radix hex {3 0ns}
+run 10 us
+close_sim
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+open_run impl_1
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_16_subtractor.vhd
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/shfit_L_R.vhd
+export_ip_user_files -of_objects  [get_files D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd] -no_script -reset -force -quiet
+remove_files  D:/alu_copy/ALU1/ALU1.srcs/sources_1/new/bit_4_adder.vhd
+launch_simulation
+source ALU.tcl
+close_sim
+copy_run -name impl_1_copy_1 [get_runs impl_1] -parent_run synth_1
+set_property part xc7a100tcsg324-1 [current_project]
